@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    justify-content: center;
+    
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+main {
+    width: 80vw;
+    height: 95vh;
+    background-color: whitesmoke;
+}
+@media only screen and (min-width: 600px) {
+
+   
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    
+    
+}
+nav img {
+    height: 2rem;
+    width: 2rem;
+}
+nav a {
+    text-decoration: none;
+    gap: 1rem;
+}
+h2 {
+    margin-left: 1rem;
+}
+.nav-container {
+    display: none;
+    gap: 1rem;
+
+}
+.nav-container i {
+    visibility: visible;
+}
+/* .nav-container i:hover */
+@media only screen and (min-width: 600px) {
+
+    .nav-container{
+        display: flex;
+    }
+    .nav-container i {
+        visibility: hidden;
+    }
+}
+.spacer {
+    flex-grow: 1;
+}
+
+
+.container-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.text { 
+    width: 50vw;
+}
+
+.container-buton { 
+    width: 100%;
+    padding-bottom: 2rem;
+    
+
+}
+
+button {
+    margin-left: 50vw;
+    background-color: black;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+button img {
+    width: 1.8rem;
+}
+.container-image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+
+}
+@media only screen and (min-width: 600px) {
+
+   
+}
+.image-item { 
+    position: relative;
+    height: 60vh;
+    width: 33%;
+    margin: 0.3rem;
+    color: white;
+}
+.image-item p {
+    position: absolute;
+    top: 7rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+.image-item img{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 1px 1px rgba(255, 254, 254, 0.621);
+}
+.one {
+    background-image: url(./images/white-box.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.two {
+    background-image: url(./images/room.jpg);
+    background-size: cover;
+    background-position: 0% 40%;
+
+}
+.drei {
+    background-image: url(./images/black-white.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.container-footer {
+    width: 100%;
+    text-align: center;
+}

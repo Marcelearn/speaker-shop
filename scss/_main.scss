@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    justify-content: center;
+    
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+main {
+    width: 80vw;
+    height: 95vh;
+    background-color: whitesmoke;
+}
+@media only screen and (min-width: 600px) {
+
+   
+}
+

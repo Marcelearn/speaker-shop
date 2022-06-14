@@ -1,0 +1,23 @@
+{
+  "name": "speaker-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"sass -w scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelearn/speaker-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelearn/speaker-shop/issues"
+  },
+  "homepage": "https://github.com/Marcelearn/speaker-shop#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

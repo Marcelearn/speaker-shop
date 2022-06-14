@@ -1,0 +1,52 @@
+.container-image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+
+}
+@media only screen and (min-width: 600px) {
+
+   
+}
+.image-item { 
+    position: relative;
+    height: 60vh;
+    width: 33%;
+    margin: 0.3rem;
+    color: white;
+}
+.image-item p {
+    position: absolute;
+    top: 7rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+.image-item img{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    outline: 0.5rem solid rgba(250, 250, 250, 0.502);
+}
+.one {
+    background-image: url(./images/white-box.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.two {
+    background-image: url(./images/room.jpg);
+    background-size: cover;
+    background-position: 0% 40%;
+
+}
+.drei {
+    background-image: url(./images/black-white.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+

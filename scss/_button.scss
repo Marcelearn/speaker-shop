@@ -1,0 +1,20 @@
+.container-buton { 
+    width: 100%;
+    padding-bottom: 2rem;
+    
+
+}
+
+button {
+    margin-left: 50vw;
+    background-color: black;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+button img {
+    width: 1.8rem;
+}

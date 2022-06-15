@@ -20,11 +20,18 @@ button img {
 
 .container-image {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   width: 100%;
   position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+  .container-image {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .image-item {
   position: relative;
   height: 60vh;
@@ -33,6 +40,11 @@ button img {
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  .image-item {
+    width: 100%;
+  }
+}
 .image-item p {
   position: absolute;
   top: 7rem;
@@ -143,6 +155,12 @@ main {
   background-color: whitesmoke;
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+    height: 100%;
+  }
+}
 .container-text {
   width: 100%;
   display: flex;
